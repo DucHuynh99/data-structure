@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Tree: create and traversal">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Tree: find">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +214,7 @@
       <workItem from="1694655058815" duration="915000" />
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
-      <workItem from="1694783725539" duration="1831000" />
+      <workItem from="1694783725539" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -234,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694677010091</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tree: find">
+      <option name="closed" value="true" />
+      <created>1694785642056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694785642056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +249,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="String reversion using recursion" />
     <MESSAGE value="Tree: create and traversal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree: create and traversal" />
+    <MESSAGE value="Tree: find" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tree: find" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -68,4 +68,19 @@ public class Tree {
             return find(node.right, value);
         return true;
     }
+
+    public void printGivenLevel(int level) {
+        printGivenLevel(root, level);
+    }
+
+    private void printGivenLevel(Node node, int level) {
+        if (node == null || level < 1)
+            return;
+        if (level == 1) {
+            System.out.print(node.data + " ");
+        } else {
+            printGivenLevel(node.left, level - 1);
+            printGivenLevel(node.right, level - 1);
+        }
+    }
 }

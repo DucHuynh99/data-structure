@@ -35,4 +35,15 @@ public class TreeTest {
         Assertions.assertFalse(tree.find(10));
         Assertions.assertTrue(tree.find(1));
     }
+
+    @Test
+    @DisplayName("Print at given level")
+    public void testTreePrintGivenLevel() {
+        Tree tree = initTree();
+        tree.printGivenLevel(1);
+        System.out.println();
+        tree.printGivenLevel(2);
+        System.out.println();
+        tree.printGivenLevel(3);
+    }
 }
