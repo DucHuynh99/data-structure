@@ -54,4 +54,18 @@ public class Tree {
         inorderTraversal(node.right);
         System.out.print(node.data + " ");
     }
+
+    public boolean find(int value) {
+        return find(root, value);
+    }
+
+    private boolean find(Node node, int value) {
+        if (node == null)
+            return false;
+        if (value < node.data)
+            return find(node.left, value);
+        if (value > node.data)
+            return find(node.right, value);
+        return true;
+    }
 }
