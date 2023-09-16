@@ -18,4 +18,10 @@ public class ArrayTest {
         int[] arr = {5, 3, 2, 1};
         Assertions.assertEquals(4, ArrayDataStructure.findOneMissing(arr, 5));
     }
+
+    @Test
+    @DisplayName("Print all sub-array have sum equal k")
+    public void testPrintSubArraySumEqual() {
+        ArrayDataStructure.printSubArraySumEqual(new int[]{1, -1, 0}, 0);
+    }
 }
