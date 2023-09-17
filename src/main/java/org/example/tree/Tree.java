@@ -83,4 +83,14 @@ public class Tree {
             printGivenLevel(node.right, level - 1);
         }
     }
+
+    public int height() {
+        return height(root);
+    }
+
+    private int height(Node node) {
+        if (node == null)
+             return 0;
+        return 1 + Math.max(height(node.left), height(node.right));
+    }
 }

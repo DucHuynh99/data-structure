@@ -46,4 +46,11 @@ public class TreeTest {
         System.out.println();
         tree.printGivenLevel(3);
     }
+
+    @Test
+    @DisplayName("Get height")
+    public void testHeight() {
+        Tree tree = initTree();
+        Assertions.assertEquals(3, tree.height());
+    }
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Tree: print at given level">
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Array: print sub-arrays have sum equal value">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +72,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TreeTest.testTreePrintGivenLevel">
-    <configuration name="StringTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TreeTest.testHeight">
+    <configuration name="ArrayTest.testPrintSubArraySumEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -85,31 +86,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;StringTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="StringTest.testStringPermutation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringTest.testStringPermutation&quot;" />
+            <option value="&quot;ArrayTest.testPrintSubArraySumEqual&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,6 +111,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;TreeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TreeTest.testHeight" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TreeTest.testHeight&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TreeTest.testHeight" />
+        <item itemvalue="Gradle.ArrayTest.testPrintSubArraySumEqual" />
         <item itemvalue="Gradle.TreeTest.testTreePrintGivenLevel" />
         <item itemvalue="Gradle.TreeTest.testTreeFind" />
         <item itemvalue="Gradle.TreeTest" />
-        <item itemvalue="Gradle.StringTest" />
-        <item itemvalue="Gradle.StringTest.testStringPermutation" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,7 @@
       <workItem from="1694655058815" duration="915000" />
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
-      <workItem from="1694783725539" duration="2860000" />
+      <workItem from="1694783725539" duration="5024000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -249,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694786367857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Array: print sub-arrays have sum equal value">
+      <option name="closed" value="true" />
+      <created>1694876416554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694876416554</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +269,8 @@
     <MESSAGE value="Tree: create and traversal" />
     <MESSAGE value="Tree: find" />
     <MESSAGE value="Tree: print at given level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree: print at given level" />
+    <MESSAGE value="Array: print sub-arrays have sum equal value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array: print sub-arrays have sum equal value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
