@@ -23,4 +23,13 @@ public class StringTest {
         Assertions.assertTrue(StringDataStructure.checkRotation("OneTwoThree", "TwoThreeOne"));
         Assertions.assertFalse(StringDataStructure.checkRotation("OneTwoThree", "ThreeTwoOne"));
     }
+
+    @Test
+    @DisplayName("Check palindrome string")
+    public void testPalindrome() {
+        Assertions.assertTrue(StringDataStructure.checkPalindrome(null));
+        Assertions.assertTrue(StringDataStructure.checkPalindrome(" "));
+        Assertions.assertTrue(StringDataStructure.checkPalindrome("ABBA"));
+        Assertions.assertFalse(StringDataStructure.checkPalindrome("ABAB"));
+    }
 }

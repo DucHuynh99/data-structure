@@ -28,4 +28,10 @@ public class StringDataStructure {
         String concatenated = original + original;
         return concatenated.contains(rotation);
     }
+
+    public static boolean checkPalindrome(String input) {
+        if (input == null || input.isBlank())
+            return true;
+        return reverseRecursive(input).equals(input);
+    }
 }
