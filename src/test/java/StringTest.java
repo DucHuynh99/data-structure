@@ -16,4 +16,11 @@ public class StringTest {
     public void testReverseRecursive() {
         Assertions.assertEquals("321", StringDataStructure.reverseRecursive("123"));
     }
+
+    @Test
+    @DisplayName("Check rotation string")
+    public void testRotation() {
+        Assertions.assertTrue(StringDataStructure.checkRotation("OneTwoThree", "TwoThreeOne"));
+        Assertions.assertFalse(StringDataStructure.checkRotation("OneTwoThree", "ThreeTwoOne"));
+    }
 }

@@ -21,4 +21,11 @@ public class StringDataStructure {
             return input;
         return reverseRecursive(input.substring(1)) + input.charAt(0);
     }
+
+    public static boolean checkRotation(String original, String rotation) {
+        if (original == null || rotation == null || original.length() != rotation.length())
+            return false;
+        String concatenated = original + original;
+        return concatenated.contains(rotation);
+    }
 }
