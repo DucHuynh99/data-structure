@@ -19,4 +19,15 @@ public class SinglyLinkedListTest {
         SinglyLinkedList linkedList = initData();
         linkedList.print();
     }
+
+    @Test
+    @DisplayName("Test reverse linked list")
+    public void testReverseLinkedList() {
+        SinglyLinkedList linkedList = initData();
+        System.out.print("Before: ");
+        linkedList.print();
+        linkedList.reverse();
+        System.out.print("After: ");
+        linkedList.print();
+    }
 }

@@ -1,7 +1,7 @@
 package org.example.linked_list;
 
 public class SinglyLinkedList {
-    private final Node head;
+    private Node head;
 
     public SinglyLinkedList(int data) {
         head = new Node(data);
@@ -22,5 +22,17 @@ public class SinglyLinkedList {
             current = current.next;
         }
         System.out.println();
+    }
+
+    public void reverse() {
+        Node pointer = head, previous = null, current;
+        while (pointer != null) {
+            current = pointer;
+            pointer = pointer.next;
+
+            current.next = previous;
+            previous = current;
+            head = current;
+        }
     }
 }
