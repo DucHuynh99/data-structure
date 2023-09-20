@@ -36,6 +36,19 @@ public class SinglyLinkedList {
         }
     }
 
+    public void reverseRecursive() {
+        head = reverseRecursive(head);
+    }
+
+    private Node reverseRecursive(Node node) {
+        if (node.next == null)
+            return node;
+        Node newHead = reverseRecursive(node.next);
+        node.next.next = node;
+        node.next = null;
+        return newHead;
+    }
+
     public boolean find(int data) {
         Node current = head;
         while (current != null) {

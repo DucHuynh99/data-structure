@@ -33,6 +33,17 @@ public class SinglyLinkedListTest {
     }
 
     @Test
+    @DisplayName("Test reverse linked list recursive")
+    public void testReverseLinkedListRecursive() {
+        SinglyLinkedList linkedList = initData();
+        System.out.print("Before: ");
+        linkedList.print();
+        linkedList.reverseRecursive();
+        System.out.print("After: ");
+        linkedList.print();
+    }
+
+    @Test
     @DisplayName("Test find element")
     public void testFind() {
         SinglyLinkedList linkedList = initData();
