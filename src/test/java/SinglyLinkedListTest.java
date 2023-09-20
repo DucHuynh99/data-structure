@@ -1,4 +1,5 @@
 import org.example.linked_list.SinglyLinkedList;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -29,5 +30,14 @@ public class SinglyLinkedListTest {
         linkedList.reverse();
         System.out.print("After: ");
         linkedList.print();
+    }
+
+    @Test
+    @DisplayName("Test find element")
+    public void testFind() {
+        SinglyLinkedList linkedList = initData();
+        Assertions.assertTrue(linkedList.find(1));
+        Assertions.assertTrue(linkedList.find(5));
+        Assertions.assertFalse(linkedList.find(6));
     }
 }

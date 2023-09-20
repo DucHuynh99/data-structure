@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Singly linked list">
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Reverse list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,31 +70,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SinglyLinkedListTest.testPrintLinkedList">
-    <configuration name="ArrayTest.testPrintSubArraySumEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ArrayTest.testPrintSubArraySumEqual&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SinglyLinkedListTest.testReverseLinkedList">
     <configuration name="SinglyLinkedListTest.testPrintLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,6 +85,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;SinglyLinkedListTest.testPrintLinkedList&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testReverseLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SinglyLinkedListTest.testReverseLinkedList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -194,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SinglyLinkedListTest.testReverseLinkedList" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testPrintLinkedList" />
         <item itemvalue="Gradle.StringTest.testPalindrome" />
         <item itemvalue="Gradle.StringTest.testRotation" />
         <item itemvalue="Gradle.TreeTest.testHeight" />
-        <item itemvalue="Gradle.ArrayTest.testPrintSubArraySumEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +214,7 @@
       <workItem from="1694655058815" duration="915000" />
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
-      <workItem from="1694783725539" duration="12850000" />
+      <workItem from="1694783725539" duration="13763000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -289,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695131655768</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Linked list: Reverse list">
+      <option name="closed" value="true" />
+      <created>1695132881088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695132881088</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +312,8 @@
     <MESSAGE value="String: Check rotation" />
     <MESSAGE value="String: Check palindrome" />
     <MESSAGE value="Linked list: Singly linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Singly linked list" />
+    <MESSAGE value="Linked list: Reverse list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Reverse list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
