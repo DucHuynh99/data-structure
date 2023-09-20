@@ -1,5 +1,8 @@
 package org.example.linked_list;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class SinglyLinkedList {
     private Node head;
 
@@ -57,5 +60,21 @@ public class SinglyLinkedList {
             current = current.next;
         }
         return false;
+    }
+
+    public void removeDuplicate() {
+        Set<Integer> hashSet = new HashSet<>();
+        Node current = head;
+        Node previous = null;
+        while (current != null) {
+            int data = current.data;
+            if (hashSet.contains(data)) {
+                previous.next = current.next;
+            } else {
+                hashSet.add(data);
+                previous = current;
+            }
+            current = current.next;
+        }
     }
 }

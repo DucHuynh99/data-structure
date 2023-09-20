@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Find element">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Reverse recursive">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DucHuynh99"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="1d739aab-9391-4115-a30b-84880dac1aec" />
+        <option name="url" value="https://github.com/DucHuynh99/data-structure.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -215,7 +228,7 @@
       <workItem from="1694655058815" duration="915000" />
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
-      <workItem from="1694783725539" duration="14799000" />
+      <workItem from="1694783725539" duration="15699000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -305,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695199513680</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Linked list: Reverse recursive">
+      <option name="closed" value="true" />
+      <created>1695200460587</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695200460587</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +344,8 @@
     <MESSAGE value="Linked list: Singly linked list" />
     <MESSAGE value="Linked list: Reverse list" />
     <MESSAGE value="Linked list: Find element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Find element" />
+    <MESSAGE value="Linked list: Reverse recursive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Reverse recursive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

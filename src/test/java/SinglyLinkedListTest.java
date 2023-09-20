@@ -51,4 +51,16 @@ public class SinglyLinkedListTest {
         Assertions.assertTrue(linkedList.find(5));
         Assertions.assertFalse(linkedList.find(6));
     }
+
+    @Test
+    @DisplayName("Test remove duplication")
+    public void testRemoveDuplication() {
+        SinglyLinkedList linkedList = initData();
+        linkedList.add(5);
+        System.out.print("Before: ");
+        linkedList.print();
+        linkedList.removeDuplicate();
+        System.out.print("After: ");
+        linkedList.print();
+    }
 }
