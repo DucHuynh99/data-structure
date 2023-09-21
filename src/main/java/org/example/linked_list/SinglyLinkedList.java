@@ -92,4 +92,18 @@ public class SinglyLinkedList {
         assert slow != null;
         return slow.data;
     }
+
+    public int getMiddleNode() {
+        Node fast = head, slow = head;
+        int start = 0;
+        while (fast != null) {
+            fast = fast.next;
+            start++;
+            if (start % 2 == 0){
+                slow = slow.next;
+            }
+        }
+        assert slow != null;
+        return slow.data;
+    }
 }

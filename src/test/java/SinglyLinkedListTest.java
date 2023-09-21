@@ -72,4 +72,11 @@ public class SinglyLinkedListTest {
         Assertions.assertEquals(4, linkedList.getLastNode(2));
         Assertions.assertEquals(3, linkedList.getLastNode(3));
     }
+
+    @Test
+    @DisplayName("Test get middle node")
+    public void testMiddleNode() {
+        SinglyLinkedList linkedList = initData();
+        Assertions.assertEquals(3, linkedList.getMiddleNode());
+    }
 }
