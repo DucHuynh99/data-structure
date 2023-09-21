@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Reverse recursive">
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: Remove duplicate element">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +45,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DucHuynh99"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DucHuynh99&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -84,7 +87,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.SinglyLinkedListTest.testReverseLinkedListRecursive">
+  <component name="RunManager" selected="Gradle.SinglyLinkedListTest.testLastNode">
     <configuration name="SinglyLinkedListTest.testFind" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,7 +112,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedListTest.testPrintLinkedList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SinglyLinkedListTest.testLastNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,7 +125,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SinglyLinkedListTest.testPrintLinkedList&quot;" />
+            <option value="&quot;SinglyLinkedListTest.testLastNode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testRemoveDuplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SinglyLinkedListTest.testRemoveDuplication&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -181,37 +208,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StringTest.testPalindrome" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;StringTest.testPalindrome&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SinglyLinkedListTest.testLastNode" />
+        <item itemvalue="Gradle.SinglyLinkedListTest.testRemoveDuplication" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testReverseLinkedListRecursive" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testFind" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testReverseLinkedList" />
-        <item itemvalue="Gradle.SinglyLinkedListTest.testPrintLinkedList" />
-        <item itemvalue="Gradle.StringTest.testPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +231,8 @@
       <workItem from="1694655058815" duration="915000" />
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
-      <workItem from="1694783725539" duration="15699000" />
+      <workItem from="1694783725539" duration="16067000" />
+      <workItem from="1695281466613" duration="839000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -326,7 +330,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695200460587</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Linked list: Remove duplicate element">
+      <option name="closed" value="true" />
+      <created>1695202205742</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695202205742</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +357,8 @@
     <MESSAGE value="Linked list: Reverse list" />
     <MESSAGE value="Linked list: Find element" />
     <MESSAGE value="Linked list: Reverse recursive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Reverse recursive" />
+    <MESSAGE value="Linked list: Remove duplicate element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list: Remove duplicate element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -354,6 +367,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

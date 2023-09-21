@@ -77,4 +77,19 @@ public class SinglyLinkedList {
             current = current.next;
         }
     }
+
+    public int getLastNode(int n) {
+        Node fast = head, slow = head;
+        int start = 0;
+
+        while (fast != null) {
+            fast = fast.next;
+            start++;
+            if (start > n) {
+                slow = slow.next;
+            }
+        }
+        assert slow != null;
+        return slow.data;
+    }
 }

@@ -63,4 +63,13 @@ public class SinglyLinkedListTest {
         System.out.print("After: ");
         linkedList.print();
     }
+
+    @Test
+    @DisplayName("Test get nth node from the end")
+    public void testLastNode() {
+        SinglyLinkedList linkedList = initData();
+        Assertions.assertEquals(5, linkedList.getLastNode(1));
+        Assertions.assertEquals(4, linkedList.getLastNode(2));
+        Assertions.assertEquals(3, linkedList.getLastNode(3));
+    }
 }
