@@ -8,4 +8,8 @@ public class Node {
         data = value;
         left = right = null;
     }
+
+    public boolean isLeave() {
+        return left == null && right == null;
+    }
 }

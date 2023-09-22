@@ -53,4 +53,11 @@ public class TreeTest {
         Tree tree = initTree();
         Assertions.assertEquals(3, tree.height());
     }
+
+    @Test
+    @DisplayName("Test print leaves node")
+    public void testPrintLeaves() {
+        Tree tree = initTree();
+        tree.printLeaves();
+    }
 }

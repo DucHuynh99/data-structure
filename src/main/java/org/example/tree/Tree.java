@@ -93,4 +93,17 @@ public class Tree {
              return 0;
         return 1 + Math.max(height(node.left), height(node.right));
     }
+
+    public void printLeaves() {
+        printLeaves(root);
+    }
+
+    private void printLeaves(Node node) {
+        if (node == null)
+            return;
+        if (node.isLeave())
+            System.out.print(node.data + " ");
+        printLeaves(node.left);
+        printLeaves(node.right);
+    }
 }
