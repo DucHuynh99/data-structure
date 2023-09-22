@@ -106,4 +106,16 @@ public class Tree {
         printLeaves(node.left);
         printLeaves(node.right);
     }
+
+    public int countLeaves() {
+        return countLeaves(root);
+    }
+
+    private int countLeaves(Node node) {
+        if (node == null)
+             return 0;
+        if (node.isLeave())
+            return 1;
+        return countLeaves(node.left) + countLeaves(node.right);
+    }
 }

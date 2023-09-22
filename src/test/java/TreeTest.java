@@ -60,4 +60,11 @@ public class TreeTest {
         Tree tree = initTree();
         tree.printLeaves();
     }
+
+    @Test
+    @DisplayName("Test count leaves node")
+    public void testCountLeaves() {
+        Tree tree = initTree();
+        Assertions.assertEquals(4, tree.countLeaves());
+    }
 }
