@@ -1,5 +1,8 @@
 package org.example.string;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class StringDataStructure {
 
     public static void permutation(String input) {
@@ -17,21 +20,36 @@ public class StringDataStructure {
     }
 
     public static String reverseRecursive(String input) {
-        if (input == null || input.length() < 2)
-            return input;
+        if (input == null || input.length() < 2) return input;
         return reverseRecursive(input.substring(1)) + input.charAt(0);
     }
 
     public static boolean checkRotation(String original, String rotation) {
-        if (original == null || rotation == null || original.length() != rotation.length())
-            return false;
+        if (original == null || rotation == null || original.length() != rotation.length()) return false;
         String concatenated = original + original;
         return concatenated.contains(rotation);
     }
 
     public static boolean checkPalindrome(String input) {
-        if (input == null || input.isBlank())
-            return true;
+        if (input == null || input.isBlank()) return true;
         return reverseRecursive(input).equals(input);
+    }
+
+    public static void printDuplicateCharacters(String input) {
+        char[] characters = input.toCharArray();
+        Map<Character, Integer> map = new HashMap<>();
+        for (char character : characters) {
+            if (map.containsKey(character)) {
+                map.put(character, map.get(character) + 1);
+            } else {
+                map.put(character, 1);
+            }
+        }
+        System.out.printf("List of duplicate characters of '%s' \n", input);
+        for(Map.Entry<Character, Integer> entry:map.entrySet()) {
+            if (entry.getValue() > 1) {
+                System.out.printf(" %s : %d \n", entry.getKey(), entry.getValue());
+            }
+        }
     }
 }

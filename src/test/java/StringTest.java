@@ -32,4 +32,10 @@ public class StringTest {
         Assertions.assertTrue(StringDataStructure.checkPalindrome("ABBA"));
         Assertions.assertFalse(StringDataStructure.checkPalindrome("ABAB"));
     }
+
+    @Test
+    @DisplayName("Test print duplicate characters")
+    public void testPrintDuplicateCharacters() {
+        StringDataStructure.printDuplicateCharacters("TARA");
+    }
 }

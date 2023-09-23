@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Tree: Print all leaves node" />
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: print duplicate charaters">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +86,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.TreeTest.testPrintLeaves">
+  <component name="RunManager" selected="Gradle.StringTest.testPrintDuplicateCharacters">
     <configuration name="SinglyLinkedListTest.testLastNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,7 +135,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedListTest.testRemoveDuplication" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringTest.testPrintDuplicateCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SinglyLinkedListTest.testRemoveDuplication&quot;" />
+            <option value="&quot;StringTest.testPrintDuplicateCharacters&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,7 +159,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedListTest.testReverseLinkedListRecursive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TreeTest.testCountLeaves" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +172,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SinglyLinkedListTest.testReverseLinkedListRecursive&quot;" />
+            <option value="&quot;TreeTest.testCountLeaves&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StringTest.testPrintDuplicateCharacters" />
+        <item itemvalue="Gradle.TreeTest.testCountLeaves" />
         <item itemvalue="Gradle.TreeTest.testPrintLeaves" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testMiddleNode" />
         <item itemvalue="Gradle.SinglyLinkedListTest.testLastNode" />
-        <item itemvalue="Gradle.SinglyLinkedListTest.testRemoveDuplication" />
-        <item itemvalue="Gradle.SinglyLinkedListTest.testReverseLinkedListRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +231,8 @@
       <workItem from="1694656185141" duration="110000" />
       <workItem from="1694674392263" duration="3400000" />
       <workItem from="1694783725539" duration="16067000" />
-      <workItem from="1695281466613" duration="2127000" />
+      <workItem from="1695281466613" duration="2946000" />
+      <workItem from="1695463154797" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -357,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695370827296</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tree: Count leaves node">
+      <option name="closed" value="true" />
+      <created>1695371108383</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695371108383</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +393,9 @@
     <MESSAGE value="Linked list: Nth node from the end" />
     <MESSAGE value="Linked list: Get middle node" />
     <MESSAGE value="Tree: Print all leaves node" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tree: Print all leaves node" />
+    <MESSAGE value="Tree: Count leaves node" />
+    <MESSAGE value="String: print duplicate charaters" />
+    <option name="LAST_COMMIT_MESSAGE" value="String: print duplicate charaters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
