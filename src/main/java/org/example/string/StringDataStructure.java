@@ -46,10 +46,23 @@ public class StringDataStructure {
             }
         }
         System.out.printf("List of duplicate characters of '%s' \n", input);
-        for(Map.Entry<Character, Integer> entry:map.entrySet()) {
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             if (entry.getValue() > 1) {
                 System.out.printf(" %s : %d \n", entry.getKey(), entry.getValue());
             }
         }
+    }
+
+    public static Character findFirstNonRepeatedCharacter(String input) {
+        char[] characters = input.toCharArray();
+        Map<Character, Integer> map = new HashMap<>();
+        for (char character : characters) {
+            map.put(character, map.containsKey(character) ? map.get(character) + 1 : 1);
+        }
+        for (char character : characters) {
+            if (map.get(character) == 1)
+                return character;
+        }
+        return null;
     }
 }

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: print duplicate charaters">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: print duplicate charaters" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -232,7 +228,7 @@
       <workItem from="1694674392263" duration="3400000" />
       <workItem from="1694783725539" duration="16067000" />
       <workItem from="1695281466613" duration="2946000" />
-      <workItem from="1695463154797" duration="676000" />
+      <workItem from="1695463154797" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -370,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695371108383</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="String: print duplicate charaters">
+      <option name="closed" value="true" />
+      <created>1695464001037</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1695464001037</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

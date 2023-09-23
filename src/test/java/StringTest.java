@@ -38,4 +38,11 @@ public class StringTest {
     public void testPrintDuplicateCharacters() {
         StringDataStructure.printDuplicateCharacters("TARA");
     }
+
+    @Test
+    @DisplayName("Test find first non-repeat character")
+    public void testFindFirstNonRepeatedCharacter() {
+        Assertions.assertEquals('Y', StringDataStructure.findFirstNonRepeatedCharacter("PAPAYA"));
+        Assertions.assertNull(StringDataStructure.findFirstNonRepeatedCharacter("ABBA"));
+    }
 }
