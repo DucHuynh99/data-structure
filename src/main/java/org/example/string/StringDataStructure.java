@@ -65,4 +65,18 @@ public class StringDataStructure {
         }
         return null;
     }
+
+    public static int countVowel(String input) {
+        if (input == null || input.isBlank()) {
+            return 0;
+        }
+        int count = 0;
+        String vowel = "AaEeIiOoUu";
+        for (Character character : input.toCharArray()) {
+            if (vowel.indexOf(character) != -1) {
+                count++;
+            }
+        }
+        return count;
+    }
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: print duplicate charaters" />
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: find first non-repeat character">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/string/StringDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +86,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.StringTest.testPrintDuplicateCharacters">
-    <configuration name="SinglyLinkedListTest.testLastNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StringTest.testCountVowel">
+    <configuration name="StringTest.testCountVowel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -96,7 +100,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SinglyLinkedListTest.testLastNode&quot;" />
+            <option value="&quot;StringTest.testCountVowel&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -107,7 +111,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SinglyLinkedListTest.testMiddleNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StringTest.testFindFirstNonRepeatedCharacter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -120,7 +124,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SinglyLinkedListTest.testMiddleNode&quot;" />
+            <option value="&quot;StringTest.testFindFirstNonRepeatedCharacter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -205,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StringTest.testCountVowel" />
+        <item itemvalue="Gradle.StringTest.testFindFirstNonRepeatedCharacter" />
         <item itemvalue="Gradle.StringTest.testPrintDuplicateCharacters" />
         <item itemvalue="Gradle.TreeTest.testCountLeaves" />
         <item itemvalue="Gradle.TreeTest.testPrintLeaves" />
-        <item itemvalue="Gradle.SinglyLinkedListTest.testMiddleNode" />
-        <item itemvalue="Gradle.SinglyLinkedListTest.testLastNode" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +232,8 @@
       <workItem from="1694674392263" duration="3400000" />
       <workItem from="1694783725539" duration="16067000" />
       <workItem from="1695281466613" duration="2946000" />
-      <workItem from="1695463154797" duration="1451000" />
+      <workItem from="1695463154797" duration="2239000" />
+      <workItem from="1695561419985" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -374,7 +379,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695464001037</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="String: find first non-repeat character">
+      <option name="closed" value="true" />
+      <created>1695465604271</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1695465604271</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +412,9 @@
     <MESSAGE value="Tree: Print all leaves node" />
     <MESSAGE value="Tree: Count leaves node" />
     <MESSAGE value="String: print duplicate charaters" />
-    <option name="LAST_COMMIT_MESSAGE" value="String: print duplicate charaters" />
+    <MESSAGE value="String: print first non-repeat character" />
+    <MESSAGE value="String: find first non-repeat character" />
+    <option name="LAST_COMMIT_MESSAGE" value="String: find first non-repeat character" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

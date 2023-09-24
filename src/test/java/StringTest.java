@@ -45,4 +45,11 @@ public class StringTest {
         Assertions.assertEquals('Y', StringDataStructure.findFirstNonRepeatedCharacter("PAPAYA"));
         Assertions.assertNull(StringDataStructure.findFirstNonRepeatedCharacter("ABBA"));
     }
+
+    @Test
+    @DisplayName("Test count vowel characters")
+    public void testCountVowel() {
+        Assertions.assertEquals(2, StringDataStructure.countVowel("Abba"));
+        Assertions.assertEquals(4, StringDataStructure.countVowel("HuynhHuuDuc"));
+    }
 }
