@@ -79,4 +79,14 @@ public class SinglyLinkedListTest {
         SinglyLinkedList linkedList = initData();
         Assertions.assertEquals(3, linkedList.getMiddleNode());
     }
+
+    @Test
+    @DisplayName("Test remove node")
+    public void testRemoveNode() {
+        SinglyLinkedList linkedList = initData();
+        Assertions.assertEquals(5, linkedList.length());
+        linkedList.remove(3);
+        Assertions.assertEquals(4, linkedList.length());
+        Assertions.assertFalse(linkedList.find(3));
+    }
 }

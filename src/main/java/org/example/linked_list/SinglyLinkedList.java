@@ -99,11 +99,37 @@ public class SinglyLinkedList {
         while (fast != null) {
             fast = fast.next;
             start++;
-            if (start % 2 == 0){
+            if (start % 2 == 0) {
                 slow = slow.next;
             }
         }
         assert slow != null;
         return slow.data;
+    }
+
+    public int length() {
+        Node node = head;
+        int length = 0;
+        while (node != null) {
+            length++;
+            node = node.next;
+        }
+        return length;
+    }
+
+    public void remove(int value) {
+        if (head == null) return;
+        if (head.data == value) {
+            head = null;
+            return;
+        }
+        Node node = head;
+        while (node.next != null) {
+            if (node.next.data == value) {
+                node.next = node.next.next;
+            } else {
+                node = node.next;
+            }
+        }
     }
 }
