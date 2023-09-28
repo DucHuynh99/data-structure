@@ -24,4 +24,11 @@ public class ArrayTest {
     public void testPrintSubArraySumEqual() {
         ArrayDataStructure.printSubArraySumEqual(new int[]{1, -1, 0}, 0);
     }
+
+    @Test
+    @DisplayName("Print all pair of numbers have sum equal n")
+    public void testPrintPair() {
+        int[] input = {0, 2, 4, 3, 5, 7, 8, 9};
+        ArrayDataStructure.printPair(input, 7);
+    }
 }

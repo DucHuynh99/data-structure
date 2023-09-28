@@ -1,5 +1,8 @@
 package org.example.array;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ArrayDataStructure {
     public static int findRepeating(int[] array, int n) {
         int sum = 0;
@@ -30,6 +33,21 @@ public class ArrayDataStructure {
                     }
                     System.out.println();
                 }
+            }
+        }
+    }
+
+    public static void printPair(int[] input, int n) {
+        if (input == null || input.length < 2) {
+            return;
+        }
+        Set<Integer> set = new HashSet<>();
+        for (int number : input) {
+            int target = n - number;
+            if (set.contains(target)) {
+                System.out.printf("(%d,%d)\n", number, target);
+            } else {
+                set.add(number);
             }
         }
     }

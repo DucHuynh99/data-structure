@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="String: count vowel character" />
+    <list default="true" id="69633d97-9e9b-44bd-a198-d058b460db58" name="Changes" comment="Linked list: remove node">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/array/ArrayDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +75,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Spring/data-structure&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Spring/Design Pattern&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -82,7 +86,31 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.StringTest.testCountVowel">
+  <component name="RunManager" selected="Gradle.SinglyLinkedListTest.testRemoveNode">
+    <configuration name="SinglyLinkedListTest.testRemoveNode" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SinglyLinkedListTest.testRemoveNode&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="StringTest.testCountVowel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -179,37 +207,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TreeTest.testPrintLeaves" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;TreeTest.testPrintLeaves&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SinglyLinkedListTest.testRemoveNode" />
         <item itemvalue="Gradle.StringTest.testCountVowel" />
         <item itemvalue="Gradle.StringTest.testFindFirstNonRepeatedCharacter" />
         <item itemvalue="Gradle.StringTest.testPrintDuplicateCharacters" />
         <item itemvalue="Gradle.TreeTest.testCountLeaves" />
-        <item itemvalue="Gradle.TreeTest.testPrintLeaves" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +234,8 @@
       <workItem from="1695281466613" duration="2946000" />
       <workItem from="1695463154797" duration="2239000" />
       <workItem from="1695561419985" duration="1379000" />
+      <workItem from="1695648727870" duration="3392000" />
+      <workItem from="1695904761587" duration="813000" />
     </task>
     <task id="LOCAL-00001" summary="String reversion using recursion">
       <option name="closed" value="true" />
@@ -391,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695562762494</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Linked list: remove node">
+      <option name="closed" value="true" />
+      <created>1695651484970</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1695651484970</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +433,8 @@
     <MESSAGE value="String: print first non-repeat character" />
     <MESSAGE value="String: find first non-repeat character" />
     <MESSAGE value="String: count vowel character" />
-    <option name="LAST_COMMIT_MESSAGE" value="String: count vowel character" />
+    <MESSAGE value="Linked list: remove node" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked list: remove node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,16 +443,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/tree/Tree.java</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/linked_list/SinglyLinkedList.java</url>
-          <line>81</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
